@@ -104,12 +104,12 @@ class Student
     }
 
     public void addSkill(){
-        int sk = 6;
-        while(sk>5){
+        int s = 6;
+        while(s>5){
             System.out.println("Add on the skills: ");
-            sk = sc.nextInt();
+            s = sc.nextInt();
         }
-        for(int i = 0;i<sk;i++){
+        for(int i = 0;i<s;i++){
             System.out.println("Enter the skill");
             String skill = sc.next();
             this.skills.add(skill);
