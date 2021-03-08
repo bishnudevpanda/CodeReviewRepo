@@ -125,18 +125,18 @@ class displayOperations extends operations{
     //using the display functions to display values
     
     public void showAttributes(){
-        System.out.prinltn(this.id);                             //displaying the attributes of students.
-        System.out.prinltn(this.name);
-        System.out.prinltn(this.percentage);
-        System.out.prinltn(this.skills);
+        System.out.println(this.id);                             //displaying the attributes of students.
+        System.out.println(this.name);
+        System.out.println(this.percentage);
+        System.out.println(this.skills);
     }
 
     public void showName(){                                       //displaying the name in uppercse.
-        System.out.prinltn(this.name.toUpperCase());
+        System.out.println(this.name.toUpperCase());
     }
 
     public void showDifference(displayOperations d){
-        System.out.prinltn(this.percentage-d.percentage);          //difference of percentage.
+        System.out.println(this.percentage-d.percentage);          //difference of percentage.
     }
     }
 }
